@@ -13,7 +13,7 @@ This project was developed in response to a technical task by Netizen Experience
 - ✅ Images are sourced from the **Cataas API**: [https://cataas.com](https://cataas.com)
 - ✅ Built for **mobile-first** interaction with smooth swipe gestures
 - ✅ Malay-localized content: random **Malay cat names**, **locations**, and **Manglish-style bios**
-- ✅ Clean, responsive UI using **Tailwind CSS**
+- ✅ Clean, responsive UI using **React & CSS**
 - ✅ Fully client-side; no login or backend required
 
 ---
@@ -22,7 +22,6 @@ This project was developed in response to a technical task by Netizen Experience
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [react-tinder-card](https://www.npmjs.com/package/react-tinder-card)
 - [Cataas API](https://cataas.com/)
 
