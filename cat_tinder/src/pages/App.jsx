@@ -11,7 +11,7 @@ function MainLoadPage() {
   return (
     <div className="mainload-container" style={{ position: 'relative', overflow: 'hidden' }}>
 
-      <div className="mainload-content" style={{ position: 'relative', zIndex: 1 }}>
+      <div className="mainload-content glass-card glass-card--elevated glass-card--xl" style={{ position: 'relative', zIndex: 1 }}>
         <div className="mainload-paws">
           <svg width="60" height="36" viewBox="0 0 60 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="12" cy="18" rx="8" ry="10" fill="#4f46e5" fillOpacity="0.18" />

@@ -218,10 +218,13 @@ function MainTinder() {
                 <div className="tinder-stack">
                     {cats.slice(0, 3).reverse().map((cat, idx) => {
                         const isTop = idx === 2;
+                        const layerClass = idx === 2 ? 'glass-stack__card--layer-1' : 
+                                         idx === 1 ? 'glass-stack__card--layer-2' : 
+                                         'glass-stack__card--layer-3';
                         return (
                             <div
                                 key={cat.img + cat.name}
-                                className={`tinder-card-stack${isTop ? ' top' : ''}${animating && isTop ? ` swipe-${swipeFeedback}` : ''}`}
+                                className={`tinder-card-stack ${layerClass}${isTop ? ' top' : ''}${animating && isTop ? ` swipe-${swipeFeedback}` : ''}`}
                                 style={{ zIndex: idx + 1 }}
                                 {...(isTop ? swipeHandlers : {})}
                             >
